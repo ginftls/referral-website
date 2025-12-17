@@ -1,0 +1,71 @@
+{
+  "site": {
+    "name": "RefCodes Canada",
+    "tagline": "Save money with the best Canadian referral codes",
+    "description": "Your trusted source for Canadian referral codes and sign-up bonuses"
+  },
+  "nav": {
+    "home": "Home",
+    "banking": "Banking",
+    "telecom": "Telecom",
+    "investing": "Investing",
+    "blog": "Blog",
+    "about": "About"
+  },
+  "common": {
+    "getBonus": "Get Your Bonus",
+    "copyCode": "Copy Code",
+    "copied": "Copied!",
+    "useMyCode": "Use My Referral Code",
+    "signUpNow": "Sign Up Now",
+    "learnMore": "Learn More",
+    "lastUpdated": "Last updated",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "featured": "Featured",
+    "new": "New",
+    "limited": "Limited Time",
+    "comingSoon": "Coming Soon"
+  },
+  "referral": {
+    "yourBonus": "Your Bonus",
+    "theirBonus": "Their Bonus",
+    "upTo": "up to",
+    "minimumDeposit": "Minimum Deposit",
+    "holdPeriod": "Hold Period",
+    "days": "days",
+    "annualLimit": "Annual Limit",
+    "unlimited": "Unlimited",
+    "howItWorks": "How It Works",
+    "prosAndCons": "Pros & Cons",
+    "pros": "Pros",
+    "cons": "Cons",
+    "tips": "Pro Tips",
+    "faq": "Frequently Asked Questions",
+    "bonusTiers": "Bonus Tiers",
+    "depositAmount": "Deposit Amount",
+    "availability": "Available in",
+    "rating": "Rating",
+    "referralCode": "Referral Code"
+  },
+  "home": {
+    "hero": {
+      "title": "Save Money with Canadian Referral Codes",
+      "subtitle": "Get free cash bonuses when you sign up for the best Canadian services using my referral codes.",
+      "cta": "Browse All Deals"
+    },
+    "featured": {
+      "title": "Featured Offers",
+      "subtitle": "The best referral bonuses available right now"
+    },
+    "categories": {
+      "title": "Browse by Category"
+    }
+  },
+  "footer": {
+    "disclaimer": "Affiliate Disclosure: This site contains referral links. When you sign up using my links, I may earn a commission at no extra cost to you. This helps support the site.",
+    "copyright": "© {year} RefCodes Canada. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
+}

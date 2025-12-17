@@ -1,0 +1,104 @@
+{
+  "id": "fizz",
+  "slug": "fizz",
+  "name": "Fizz",
+  "category": "telecom",
+  "logo": "/images/logos/fizz.svg",
+  "referralCode": "COMING_SOON",
+  "referralLink": "https://fizz.ca",
+  
+  "yourBonus": {
+    "min": 25,
+    "max": 50,
+    "currency": "CAD",
+    "type": "credit"
+  },
+  "theirBonus": {
+    "min": 25,
+    "max": 50,
+    "currency": "CAD",
+    "type": "credit"
+  },
+  
+  "minimumDeposit": null,
+  "holdPeriod": null,
+  "expiryDays": null,
+  
+  "annualLimit": null,
+  "lifetimeLimit": null,
+  
+  "shortDescription": "Quebec's favorite digital mobile and internet provider. Get $25-$50 credit when you sign up using my referral code.",
+  
+  "fullDescription": "Fizz is a 100% digital telecom provider launched in 2018 by Videotron. They offer affordable, flexible mobile and internet plans with no contracts and no hidden fees. Fizz is known for their unique 'My Rewards' loyalty program where you earn points for staying with them, and unused data rolls over to the next month. They now serve Quebec, Ontario, British Columbia, Alberta, and Manitoba.",
+  
+  "howItWorks": [
+    "Go to fizz.ca and build your mobile or internet plan",
+    "At the Order Summary page (before payment), enter my referral code",
+    "Complete your order and activate your service",
+    "Your referral bonus is applied after your second monthly payment (~60 days)",
+    "The bonus appears as a credit on your bill"
+  ],
+  
+  "pros": [
+    "No contracts — cancel or change anytime",
+    "Unused data rolls over to next month",
+    "100% online — no call centers or waiting on hold",
+    "Price lock — your plan price never increases",
+    "My Rewards program with free perks",
+    "Unlimited referrals allowed",
+    "Uses Videotron's reliable network in QC/ON"
+  ],
+  
+  "cons": [
+    "No phone support — online chat only",
+    "Bonus takes ~60 days to apply",
+    "Bonus is bill credit, not cash",
+    "Some features limited in newer provinces (BC, AB, MB)"
+  ],
+  
+  "tips": [
+    "Enter the referral code at Order Summary BEFORE payment — you cannot add it after",
+    "The referral code works for both mobile AND internet plans",
+    "Even if you're already a Fizz customer for mobile, you can use a code when adding internet (or vice versa)",
+    "Watch for promotional periods when the bonus increases to $50 or even $100",
+    "Join the Fizz community forum to earn extra rewards points"
+  ],
+  
+  "faqs": [
+    {
+      "question": "When do I receive my referral bonus?",
+      "answer": "The referral bonus is applied as a credit on your bill after you've made your second monthly payment, which is approximately 60 days after activation."
+    },
+    {
+      "question": "Can I add a referral code after I've already signed up?",
+      "answer": "No, unfortunately the referral code must be entered at the Order Summary page before you complete your payment. It cannot be added retroactively."
+    },
+    {
+      "question": "Does the referral work for both mobile and internet?",
+      "answer": "Yes! The referral code works for both mobile plans and home internet plans."
+    },
+    {
+      "question": "Is Fizz available in my province?",
+      "answer": "Fizz mobile is available in Quebec, Ontario, British Columbia, Alberta, and Manitoba. Home internet is currently available in select areas of Quebec and Ontario."
+    },
+    {
+      "question": "What network does Fizz use?",
+      "answer": "Fizz uses Videotron's network in Quebec and Ontario, and extended partner networks in other provinces. Coverage is reliable in urban and suburban areas."
+    },
+    {
+      "question": "Is there a limit to how many people I can refer?",
+      "answer": "No limit! You can refer as many friends as you want and earn a bonus for each one who signs up."
+    }
+  ],
+  
+  "bonusTiers": null,
+  
+  "availability": ["QC", "ON", "BC", "AB", "MB"],
+  "lastUpdated": "2025-12-16",
+  "featured": true,
+  "rating": 4.6,
+  
+  "metaTitle": "Fizz Referral Code 2025 | Get $25-$50 Credit (December)",
+  "metaDescription": "Use my Fizz referral code to get $25-$50 off your mobile or internet plan. No contracts, data rollover, and the best prices in Quebec. Updated December 2025.",
+  "keywords": ["fizz referral code", "fizz promo code", "fizz discount code", "fizz mobile referral", "fizz internet referral", "code promo fizz", "fizz quebec"]
+}

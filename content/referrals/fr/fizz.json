@@ -1,0 +1,104 @@
+{
+  "id": "fizz",
+  "slug": "fizz",
+  "name": "Fizz",
+  "category": "telecom",
+  "logo": "/images/logos/fizz.svg",
+  "referralCode": "COMING_SOON",
+  "referralLink": "https://fizz.ca",
+  
+  "yourBonus": {
+    "min": 25,
+    "max": 50,
+    "currency": "CAD",
+    "type": "credit"
+  },
+  "theirBonus": {
+    "min": 25,
+    "max": 50,
+    "currency": "CAD",
+    "type": "credit"
+  },
+  
+  "minimumDeposit": null,
+  "holdPeriod": null,
+  "expiryDays": null,
+  
+  "annualLimit": null,
+  "lifetimeLimit": null,
+  
+  "shortDescription": "Le fournisseur mobile et internet numérique préféré du Québec. Obtenez 25$ à 50$ de crédit en utilisant mon code de parrainage.",
+  
+  "fullDescription": "Fizz est un fournisseur de télécommunications 100% numérique lancé en 2018 par Vidéotron. Ils offrent des forfaits mobiles et internet abordables et flexibles, sans contrat et sans frais cachés. Fizz est reconnu pour son programme de fidélité unique 'Mes récompenses' où vous accumulez des points en restant client, et les données inutilisées sont reportées au mois suivant. Ils desservent maintenant le Québec, l'Ontario, la Colombie-Britannique, l'Alberta et le Manitoba.",
+  
+  "howItWorks": [
+    "Allez sur fizz.ca et créez votre forfait mobile ou internet",
+    "À la page Sommaire de la commande (avant le paiement), entrez mon code de parrainage",
+    "Complétez votre commande et activez votre service",
+    "Votre bonus de parrainage est appliqué après votre deuxième paiement mensuel (~60 jours)",
+    "Le bonus apparaît comme un crédit sur votre facture"
+  ],
+  
+  "pros": [
+    "Aucun contrat — annulez ou changez en tout temps",
+    "Les données inutilisées sont reportées au mois suivant",
+    "100% en ligne — pas de centre d'appels ni d'attente",
+    "Prix verrouillé — le prix de votre forfait n'augmente jamais",
+    "Programme Mes récompenses avec avantages gratuits",
+    "Parrainages illimités permis",
+    "Utilise le réseau fiable de Vidéotron au QC/ON"
+  ],
+  
+  "cons": [
+    "Pas de support téléphonique — clavardage en ligne seulement",
+    "Le bonus prend ~60 jours à être appliqué",
+    "Le bonus est un crédit sur facture, pas de l'argent comptant",
+    "Certaines fonctionnalités limitées dans les nouvelles provinces (CB, AB, MB)"
+  ],
+  
+  "tips": [
+    "Entrez le code de parrainage au Sommaire de la commande AVANT le paiement — vous ne pouvez pas l'ajouter après",
+    "Le code de parrainage fonctionne pour les forfaits mobiles ET internet",
+    "Même si vous êtes déjà client Fizz pour le mobile, vous pouvez utiliser un code en ajoutant internet (ou vice versa)",
+    "Surveillez les périodes promotionnelles quand le bonus augmente à 50$ ou même 100$",
+    "Rejoignez le forum communautaire Fizz pour gagner des points de récompenses supplémentaires"
+  ],
+  
+  "faqs": [
+    {
+      "question": "Quand est-ce que je reçois mon bonus de parrainage?",
+      "answer": "Le bonus de parrainage est appliqué comme crédit sur votre facture après que vous ayez effectué votre deuxième paiement mensuel, soit environ 60 jours après l'activation."
+    },
+    {
+      "question": "Puis-je ajouter un code de parrainage après m'être inscrit?",
+      "answer": "Non, malheureusement le code de parrainage doit être entré à la page Sommaire de la commande avant de compléter votre paiement. Il ne peut pas être ajouté rétroactivement."
+    },
+    {
+      "question": "Le parrainage fonctionne-t-il pour le mobile et l'internet?",
+      "answer": "Oui! Le code de parrainage fonctionne autant pour les forfaits mobiles que pour les forfaits internet résidentiel."
+    },
+    {
+      "question": "Fizz est-il disponible dans ma province?",
+      "answer": "Le mobile Fizz est disponible au Québec, en Ontario, en Colombie-Britannique, en Alberta et au Manitoba. L'internet résidentiel est présentement disponible dans certaines régions du Québec et de l'Ontario."
+    },
+    {
+      "question": "Quel réseau Fizz utilise-t-il?",
+      "answer": "Fizz utilise le réseau de Vidéotron au Québec et en Ontario, et des réseaux partenaires étendus dans les autres provinces. La couverture est fiable dans les zones urbaines et suburbaines."
+    },
+    {
+      "question": "Y a-t-il une limite au nombre de personnes que je peux parrainer?",
+      "answer": "Aucune limite! Vous pouvez parrainer autant d'amis que vous voulez et gagner un bonus pour chacun qui s'inscrit."
+    }
+  ],
+  
+  "bonusTiers": null,
+  
+  "availability": ["QC", "ON", "BC", "AB", "MB"],
+  "lastUpdated": "2025-12-16",
+  "featured": true,
+  "rating": 4.6,
+  
+  "metaTitle": "Code de Parrainage Fizz 2025 | Obtenez 25$ à 50$ de Crédit (Décembre)",
+  "metaDescription": "Utilisez mon code de parrainage Fizz pour obtenir 25$ à 50$ de rabais sur votre forfait mobile ou internet. Sans contrat, données reportées, et les meilleurs prix au Québec. Mis à jour décembre 2025.",
+  "keywords": ["code parrainage fizz", "code promo fizz", "code rabais fizz", "fizz mobile parrainage", "fizz internet parrainage", "fizz québec"]
+}

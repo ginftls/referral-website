@@ -1,0 +1,71 @@
+{
+  "site": {
+    "name": "CodesRéf Canada",
+    "tagline": "Économisez avec les meilleurs codes de parrainage canadiens",
+    "description": "Votre source de confiance pour les codes de parrainage et bonus d'inscription canadiens"
+  },
+  "nav": {
+    "home": "Accueil",
+    "banking": "Banques",
+    "telecom": "Télécom",
+    "investing": "Investissement",
+    "blog": "Blogue",
+    "about": "À propos"
+  },
+  "common": {
+    "getBonus": "Obtenez votre bonus",
+    "copyCode": "Copier le code",
+    "copied": "Copié!",
+    "useMyCode": "Utilisez mon code de parrainage",
+    "signUpNow": "Inscrivez-vous maintenant",
+    "learnMore": "En savoir plus",
+    "lastUpdated": "Dernière mise à jour",
+    "readMore": "Lire la suite",
+    "viewAll": "Voir tout",
+    "featured": "En vedette",
+    "new": "Nouveau",
+    "limited": "Durée limitée",
+    "comingSoon": "Bientôt disponible"
+  },
+  "referral": {
+    "yourBonus": "Votre bonus",
+    "theirBonus": "Leur bonus",
+    "upTo": "jusqu'à",
+    "minimumDeposit": "Dépôt minimum",
+    "holdPeriod": "Période de rétention",
+    "days": "jours",
+    "annualLimit": "Limite annuelle",
+    "unlimited": "Illimité",
+    "howItWorks": "Comment ça fonctionne",
+    "prosAndCons": "Avantages et inconvénients",
+    "pros": "Avantages",
+    "cons": "Inconvénients",
+    "tips": "Conseils pro",
+    "faq": "Questions fréquentes",
+    "bonusTiers": "Niveaux de bonus",
+    "depositAmount": "Montant du dépôt",
+    "availability": "Disponible au",
+    "rating": "Note",
+    "referralCode": "Code de parrainage"
+  },
+  "home": {
+    "hero": {
+      "title": "Économisez avec les codes de parrainage canadiens",
+      "subtitle": "Obtenez des bonus en argent gratuits en vous inscrivant aux meilleurs services canadiens avec mes codes de parrainage.",
+      "cta": "Parcourir toutes les offres"
+    },
+    "featured": {
+      "title": "Offres en vedette",
+      "subtitle": "Les meilleurs bonus de parrainage disponibles en ce moment"
+    },
+    "categories": {
+      "title": "Parcourir par catégorie"
+    }
+  },
+  "footer": {
+    "disclaimer": "Divulgation d'affiliation: Ce site contient des liens de parrainage. Lorsque vous vous inscrivez en utilisant mes liens, je peux recevoir une commission sans frais supplémentaires pour vous. Cela aide à soutenir le site.",
+    "copyright": "© {year} CodesRéf Canada. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
+  }
+}

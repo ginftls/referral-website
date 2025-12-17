@@ -1,0 +1,111 @@
+{
+  "id": "wealthsimple",
+  "slug": "wealthsimple",
+  "name": "Wealthsimple",
+  "category": "banking",
+  "logo": "/images/logos/wealthsimple.svg",
+  "referralCode": "EYP3LM",
+  "referralLink": "https://www.wealthsimple.com/invite/EYP3LM",
+  
+  "yourBonus": {
+    "min": 25,
+    "max": 3000,
+    "currency": "CAD",
+    "type": "cash"
+  },
+  "theirBonus": {
+    "min": 25,
+    "max": 25,
+    "currency": "CAD",
+    "type": "cash"
+  },
+  
+  "minimumDeposit": 1,
+  "holdPeriod": 180,
+  "expiryDays": 30,
+  
+  "annualLimit": null,
+  "lifetimeLimit": null,
+  
+  "shortDescription": "L'application d'investissement la plus populaire au Canada. Obtenez 25$ gratuits en vous inscrivant et en déposant seulement 1$.",
+  
+  "fullDescription": "Wealthsimple est la principale plateforme fintech du Canada avec plus de 3 millions d'utilisateurs. Ils offrent le trading d'actions et de FNB sans commission, le trading de cryptomonnaies, des portefeuilles d'investissement gérés et un compte-chèques à intérêt élevé. Leur programme de parrainage est l'un des plus généreux au Canada, offrant des bonus progressifs jusqu'à 3 000$ selon le montant déposé par votre filleul.",
+  
+  "howItWorks": [
+    "Cliquez sur mon lien de parrainage ou utilisez le code EYP3LM lors de l'inscription",
+    "Ouvrez un compte Placements autogérés, Crypto, Placements gérés ou Chèques",
+    "Approvisionnez votre compte avec au moins 1$ dans les 30 jours",
+    "Votre bonus de 25$ est déposé en 24 heures",
+    "Si vous déposez plus, vous pourriez être admissible à des bonus plus élevés"
+  ],
+  
+  "pros": [
+    "Dépôt minimum le plus bas (1$) de tous les programmes de parrainage majeurs",
+    "Paiement instantané du bonus (dans les 24 heures)",
+    "Parrainages illimités permis",
+    "Bonus progressifs qui récompensent les dépôts plus importants",
+    "Plusieurs types de comptes admissibles",
+    "Plateforme entièrement bilingue (français/anglais)",
+    "Trading d'actions et FNB sans commission"
+  ],
+  
+  "cons": [
+    "Période de rétention de 180 jours sur les fonds bonus",
+    "Vous devez ouvrir un compte Chèques pour recevoir le bonus",
+    "Le bonus est un revenu imposable",
+    "Certaines fonctionnalités limitées hors des grandes provinces"
+  ],
+  
+  "tips": [
+    "Même un dépôt de 1$ vous donne le bonus de 25$ — parfait pour essayer la plateforme",
+    "Si vous prévoyez investir sérieusement, déposez 1 000$+ dans les 30 jours pour obtenir les bonus de niveau supérieur",
+    "Le compte Chèques verse un intérêt élevé sur votre solde — utilisez-le aussi comme compte d'épargne",
+    "Configurez le dépôt direct pour obtenir le taux d'intérêt le plus élevé sur votre solde Chèques"
+  ],
+  
+  "faqs": [
+    {
+      "question": "Combien de temps faut-il pour recevoir mon bonus?",
+      "answer": "Le bonus de base de 25$ est déposé dans les 24 heures suivant l'approvisionnement de votre compte. Si vous êtes admissible à des bonus supplémentaires en fonction du montant de votre dépôt, ceux-ci sont versés dans les 14 jours ouvrables suivant la fin de la période de financement de 30 jours."
+    },
+    {
+      "question": "Quel est le dépôt minimum requis?",
+      "answer": "Seulement 1$! Wealthsimple a le dépôt minimum le plus bas de tous les grands programmes de parrainage canadiens."
+    },
+    {
+      "question": "Puis-je retirer mon bonus immédiatement?",
+      "answer": "Il y a une période de rétention de 180 jours. Si vous retirez avant, le bonus pourrait être déduit de votre retrait."
+    },
+    {
+      "question": "Y a-t-il une limite au nombre de personnes que je peux parrainer?",
+      "answer": "Non! Wealthsimple permet des parrainages illimités, et vous gagnez un bonus pour chaque personne unique qui s'inscrit et approvisionne son compte."
+    },
+    {
+      "question": "Quels comptes sont admissibles au bonus de parrainage?",
+      "answer": "Les comptes Placements autogérés, Crypto, Placements gérés et Chèques sont tous admissibles."
+    },
+    {
+      "question": "Mon bonus est-il imposable?",
+      "answer": "Oui, les bonus de parrainage sont considérés comme un revenu imposable au Canada. Wealthsimple n'émet pas de feuillets d'impôt, vous êtes donc responsable de le déclarer."
+    }
+  ],
+  
+  "bonusTiers": [
+    { "depositMin": 1, "depositMax": 499, "referrerBonus": 25, "refereeBonus": 25 },
+    { "depositMin": 500, "depositMax": 999, "referrerBonus": 50, "refereeBonus": 25 },
+    { "depositMin": 1000, "depositMax": 4999, "referrerBonus": 75, "refereeBonus": 25 },
+    { "depositMin": 5000, "depositMax": 24999, "referrerBonus": 100, "refereeBonus": 25 },
+    { "depositMin": 25000, "depositMax": 99999, "referrerBonus": 250, "refereeBonus": 25 },
+    { "depositMin": 100000, "depositMax": 249999, "referrerBonus": 500, "refereeBonus": 25 },
+    { "depositMin": 250000, "depositMax": null, "referrerBonus": 3000, "refereeBonus": 25 }
+  ],
+  
+  "availability": ["AB", "BC", "MB", "NB", "NL", "NS", "NT", "NU", "ON", "PE", "QC", "SK", "YT"],
+  "lastUpdated": "2025-12-16",
+  "featured": true,
+  "rating": 4.8,
+  
+  "metaTitle": "Code de Parrainage Wealthsimple 2025: EYP3LM | Obtenez 25$ Gratuits (Décembre)",
+  "metaDescription": "Utilisez le code de parrainage Wealthsimple EYP3LM pour obtenir 25$ gratuits en vous inscrivant et en déposant seulement 1$. L'application d'investissement #1 au Canada. Mis à jour décembre 2025.",
+  "keywords": ["code parrainage wealthsimple", "code promo wealthsimple", "bonus wealthsimple", "wealthsimple inscription bonus", "wealthsimple parrainage 2025", "wealthsimple argent gratuit", "EYP3LM"]
+}

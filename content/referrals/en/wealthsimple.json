@@ -1,0 +1,111 @@
+{
+  "id": "wealthsimple",
+  "slug": "wealthsimple",
+  "name": "Wealthsimple",
+  "category": "banking",
+  "logo": "/images/logos/wealthsimple.svg",
+  "referralCode": "EYP3LM",
+  "referralLink": "https://www.wealthsimple.com/invite/EYP3LM",
+  
+  "yourBonus": {
+    "min": 25,
+    "max": 3000,
+    "currency": "CAD",
+    "type": "cash"
+  },
+  "theirBonus": {
+    "min": 25,
+    "max": 25,
+    "currency": "CAD",
+    "type": "cash"
+  },
+  
+  "minimumDeposit": 1,
+  "holdPeriod": 180,
+  "expiryDays": 30,
+  
+  "annualLimit": null,
+  "lifetimeLimit": null,
+  
+  "shortDescription": "Canada's most popular investing app. Get $25 free when you sign up and fund your account with just $1.",
+  
+  "fullDescription": "Wealthsimple is Canada's leading fintech platform with over 3 million users. They offer commission-free stock and ETF trading, cryptocurrency trading, managed investing portfolios, and a high-interest chequing account. Their referral program is one of the most generous in Canada, offering tiered bonuses up to $3,000 depending on how much your referral deposits.",
+  
+  "howItWorks": [
+    "Click my referral link or use code EYP3LM when signing up",
+    "Open a Self-Directed Investing, Crypto, Managed Investing, or Chequing account",
+    "Fund your account with at least $1 within 30 days",
+    "Your $25 bonus is deposited within 24 hours",
+    "If you deposit more, you may qualify for higher bonus tiers"
+  ],
+  
+  "pros": [
+    "Lowest minimum deposit ($1) of any major referral program",
+    "Instant bonus payout (within 24 hours)",
+    "Unlimited referrals allowed",
+    "Tiered bonuses reward larger deposits",
+    "Multiple account types qualify",
+    "Fully bilingual platform (French/English)",
+    "Commission-free ETF and stock trading"
+  ],
+  
+  "cons": [
+    "180-day hold period on bonus funds",
+    "Must open Chequing account to receive bonus",
+    "Bonus is taxable income",
+    "Some features limited outside major provinces"
+  ],
+  
+  "tips": [
+    "Even depositing just $1 gets you the $25 bonus — perfect for trying the platform",
+    "If you're planning to invest seriously, deposit $1,000+ within 30 days to get the higher tier bonuses",
+    "The Chequing account earns high interest on your balance — use it as a savings account too",
+    "Set up direct deposit to get the highest interest rate on your Chequing balance"
+  ],
+  
+  "faqs": [
+    {
+      "question": "How long does it take to receive my bonus?",
+      "answer": "The base $25 bonus is deposited within 24 hours of funding your account. If you qualify for additional tier bonuses based on your deposit amount, those are paid within 14 business days after the 30-day funding period ends."
+    },
+    {
+      "question": "What's the minimum deposit required?",
+      "answer": "Just $1! Wealthsimple has the lowest minimum deposit of any major Canadian referral program."
+    },
+    {
+      "question": "Can I withdraw my bonus immediately?",
+      "answer": "There's a 180-day hold period. If you withdraw before then, the bonus may be deducted from your withdrawal."
+    },
+    {
+      "question": "Is there a limit to how many people I can refer?",
+      "answer": "No! Wealthsimple allows unlimited referrals, and you earn a bonus for each unique person who signs up and funds their account."
+    },
+    {
+      "question": "Which accounts qualify for the referral bonus?",
+      "answer": "Self-Directed Investing, Crypto, Managed Investing, and Chequing accounts all qualify."
+    },
+    {
+      "question": "Is my bonus taxable?",
+      "answer": "Yes, referral bonuses are considered taxable income in Canada. Wealthsimple does not issue tax slips, so you're responsible for reporting it."
+    }
+  ],
+  
+  "bonusTiers": [
+    { "depositMin": 1, "depositMax": 499, "referrerBonus": 25, "refereeBonus": 25 },
+    { "depositMin": 500, "depositMax": 999, "referrerBonus": 50, "refereeBonus": 25 },
+    { "depositMin": 1000, "depositMax": 4999, "referrerBonus": 75, "refereeBonus": 25 },
+    { "depositMin": 5000, "depositMax": 24999, "referrerBonus": 100, "refereeBonus": 25 },
+    { "depositMin": 25000, "depositMax": 99999, "referrerBonus": 250, "refereeBonus": 25 },
+    { "depositMin": 100000, "depositMax": 249999, "referrerBonus": 500, "refereeBonus": 25 },
+    { "depositMin": 250000, "depositMax": null, "referrerBonus": 3000, "refereeBonus": 25 }
+  ],
+  
+  "availability": ["AB", "BC", "MB", "NB", "NL", "NS", "NT", "NU", "ON", "PE", "QC", "SK", "YT"],
+  "lastUpdated": "2025-12-16",
+  "featured": true,
+  "rating": 4.8,
+  
+  "metaTitle": "Wealthsimple Referral Code 2025: EYP3LM | Get $25 Free (December)",
+  "metaDescription": "Use Wealthsimple referral code EYP3LM to get $25 free when you sign up and deposit just $1. Canada's #1 investing app. Updated December 2025.",
+  "keywords": ["wealthsimple referral code", "wealthsimple promo code", "wealthsimple bonus", "wealthsimple sign up bonus", "wealthsimple referral 2025", "wealthsimple free money", "EYP3LM"]
+}
