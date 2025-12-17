@@ -1,7 +1,8 @@
-import { useTranslations } from 'next-intl';
-
-export default function HomePage() {
-  const t = useTranslations();
+export default function HomePage({
+  params: { locale }
+}: {
+  params: { locale: string };
+}) {
   
   return (
     <div className="min-h-screen bg-white">
@@ -9,16 +10,16 @@ export default function HomePage() {
       <section className="bg-gradient-to-b from-gray-50 to-white py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            {t('home.hero.title')}
+            {locale === 'fr' ? 'Économisez avec les codes de parrainage canadiens' : 'Save Money with Canadian Referral Codes'}
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            {t('home.hero.subtitle')}
+            {locale === 'fr' ? 'Obtenez des bonus en argent gratuits en vous inscrivant aux meilleurs services canadiens avec mes codes de parrainage.' : 'Get free cash bonuses when you sign up for the best Canadian services using my referral codes.'}
           </p>
           <a 
             href="#featured"
             className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
           >
-            {t('home.hero.cta')}
+            {locale === 'fr' ? 'Parcourir toutes les offres' : 'Browse All Deals'}
           </a>
         </div>
       </section>
@@ -28,10 +29,10 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              {t('home.featured.title')}
+              {locale === 'fr' ? 'Offres en vedette' : 'Featured Offers'}
             </h2>
             <p className="text-lg text-gray-600">
-              {t('home.featured.subtitle')}
+              {locale === 'fr' ? 'Les meilleurs bonus de parrainage disponibles en ce moment' : 'The best referral bonuses available right now'}
             </p>
           </div>
 
@@ -40,23 +41,25 @@ export default function HomePage() {
             <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
               <div className="flex justify-between items-start mb-4">
                 <div className="flex items-center gap-3">
-                  <img src="/images/logos/Wealthsimple.png" alt="Wealthsimple" className="w-12 h-12 rounded-lg" />
+                  <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
+                    <span className="font-bold text-gray-700">WS</span>
+                  </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Wealthsimple</h3>
-                    <p className="text-sm text-gray-500">Canada's #1 Investing App</p>
+                    <p className="text-sm text-gray-500">Canada&apos;s #1 Investing App</p>
                   </div>
                 </div>
                 <span className="bg-blue-100 text-blue-800 px-2 py-1 text-xs font-medium rounded-full">
-                  {t('common.featured')}
+                  {locale === 'fr' ? 'En vedette' : 'Featured'}
                 </span>
               </div>
               
               <div className="mb-4">
                 <p className="text-xs text-gray-500 mb-1">
-                  {t('referral.yourBonus')}
+                  {locale === 'fr' ? 'Votre bonus' : 'Your Bonus'}
                 </p>
                 <p className="text-lg font-bold text-emerald-600">
-                  {t('referral.upTo')} $3,000
+                  {locale === 'fr' ? 'jusqu\'à 3 000$' : 'up to $3,000'}
                 </p>
               </div>
               
@@ -65,7 +68,7 @@ export default function HomePage() {
               </p>
               
               <div className="bg-gray-50 p-3 rounded-lg mb-4">
-                <p className="text-xs text-gray-500 mb-1">{t('referral.referralCode')}</p>
+                <p className="text-xs text-gray-500 mb-1">{locale === 'fr' ? 'Code de parrainage' : 'Referral Code'}</p>
                 <p className="font-mono font-bold text-gray-900">EYP3LM</p>
               </div>
               
@@ -75,7 +78,7 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg font-semibold transition-colors"
               >
-                {t('common.signUpNow')} →
+                {locale === 'fr' ? 'Inscrivez-vous maintenant' : 'Sign Up Now'} →
               </a>
             </div>
 
@@ -92,16 +95,16 @@ export default function HomePage() {
                   </div>
                 </div>
                 <span className="bg-amber-100 text-amber-800 px-2 py-1 text-xs font-medium rounded-full">
-                  {t('common.comingSoon')}
+                  {locale === 'fr' ? 'Bientôt disponible' : 'Coming Soon'}
                 </span>
               </div>
               
               <div className="mb-4">
                 <p className="text-xs text-gray-500 mb-1">
-                  {t('referral.yourBonus')}
+                  {locale === 'fr' ? 'Votre bonus' : 'Your Bonus'}
                 </p>
                 <p className="text-lg font-bold text-emerald-600">
-                  {t('referral.upTo')} $50
+                  {locale === 'fr' ? 'jusqu\'à 50$' : 'up to $50'}
                 </p>
               </div>
               
@@ -110,12 +113,12 @@ export default function HomePage() {
               </p>
               
               <div className="bg-gray-50 p-3 rounded-lg mb-4">
-                <p className="text-xs text-gray-500 mb-1">{t('referral.referralCode')}</p>
+                <p className="text-xs text-gray-500 mb-1">{locale === 'fr' ? 'Code de parrainage' : 'Referral Code'}</p>
                 <p className="font-mono font-bold text-gray-400">COMING_SOON</p>
               </div>
               
               <button className="w-full bg-gray-300 text-gray-600 py-2 rounded-lg font-semibold cursor-not-allowed">
-                {t('common.comingSoon')}
+                {locale === 'fr' ? 'Bientôt disponible' : 'Coming Soon'}
               </button>
             </div>
           </div>

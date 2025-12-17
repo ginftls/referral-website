@@ -26,7 +26,9 @@ export default async function BankingPage({
         <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
           <div className="flex justify-between items-start mb-4">
             <div className="flex items-center gap-3">
-              <img src="/images/logos/Wealthsimple.png" alt="Wealthsimple" className="w-10 h-10 rounded-lg" />
+              <div className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center">
+                <span className="font-bold text-gray-700 text-sm">WS</span>
+              </div>
               <div className="h-10 px-4 bg-gray-900 rounded-lg flex items-center">
                 <span className="text-white font-semibold text-sm">Wealthsimple</span>
               </div>

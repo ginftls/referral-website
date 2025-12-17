@@ -18,7 +18,9 @@ export default async function SimpleReferralPage({ params }: SimpleReferralPageP
             <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
               {/* Logo */}
               <div className="flex items-center gap-3">
-                <img src="/images/logos/Wealthsimple.png" alt="Wealthsimple" className="w-12 h-12 rounded-lg" />
+                <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
+                  <span className="font-bold text-gray-700">WS</span>
+                </div>
                 <div className="h-12 px-5 bg-gray-900 rounded-lg flex items-center">
                   <span className="text-white font-semibold">Wealthsimple</span>
                 </div>
