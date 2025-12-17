@@ -12,14 +12,29 @@ export default function HomePage({
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             {locale === 'fr' ? 'Code de Parrainage Wealthsimple EYP3LM' : 'Wealthsimple Referral Code EYP3LM'}
           </h1>
-          <div className="bg-yellow-100 border-2 border-yellow-400 rounded-lg p-4 mb-6 max-w-2xl mx-auto">
-            <p className="text-2xl font-bold text-gray-900 mb-2">
-              {locale === 'fr' ? '🎯 Code: EYP3LM - Bonus jusqu\'à 3 000$!' : '🎯 Code: EYP3LM - Get up to $3,000 Bonus!'}
-            </p>
-            <p className="text-lg text-gray-700">
-              {locale === 'fr' ? '25$ gratuit avec seulement 1$ de dépôt' : '$25 FREE with just $1 deposit'}
-            </p>
-          </div>
+          <a 
+            href="https://www.wealthsimple.com/invite/EYP3LM"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 border-4 border-yellow-600 rounded-2xl p-8 mb-6 max-w-4xl mx-auto transform hover:scale-105 transition-all duration-300 cursor-pointer shadow-2xl"
+          >
+            <div className="text-center">
+              <p className="text-4xl font-black text-gray-900 mb-4 animate-pulse">
+                {locale === 'fr' ? '🎯 CLIQUEZ ICI! Code: EYP3LM 🎯' : '🎯 CLICK HERE! Code: EYP3LM 🎯'}
+              </p>
+              <p className="text-3xl font-bold text-red-600 mb-3">
+                {locale === 'fr' ? '💰 BONUS JUSQU\'À 3 000$! 💰' : '💰 GET UP TO $3,000 BONUS! 💰'}
+              </p>
+              <p className="text-2xl font-bold text-green-700">
+                {locale === 'fr' ? '⚡ 25$ GRATUIT avec 1$ de dépôt! ⚡' : '⚡ $25 FREE with just $1 deposit! ⚡'}
+              </p>
+              <div className="mt-4 bg-white rounded-xl p-4 inline-block">
+                <p className="text-xl font-black text-gray-900">
+                  {locale === 'fr' ? '👆 CLIQUEZ POUR VOUS INSCRIRE' : '👆 CLICK TO SIGN UP NOW'}
+                </p>
+              </div>
+            </div>
+          </a>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             {locale === 'fr' ? 'Obtenez des bonus en argent gratuits en vous inscrivant aux meilleurs services canadiens avec mes codes de parrainage.' : 'Get free cash bonuses when you sign up for the best Canadian services using my referral codes.'}
           </p>
@@ -48,13 +63,13 @@ export default function HomePage({
             {/* Wealthsimple Card */}
             <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
               <div className="flex justify-between items-start mb-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
-                    <span className="font-bold text-gray-700">WS</span>
+                <div className="flex items-center gap-4">
+                  <div className="w-20 h-20 bg-gradient-to-br from-green-400 to-green-600 rounded-xl flex items-center justify-center border-4 border-white shadow-lg">
+                    <span className="font-black text-white text-2xl">WS</span>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900">Wealthsimple</h3>
-                    <p className="text-sm text-gray-500">Canada&apos;s #1 Investing App</p>
+                    <h3 className="text-2xl font-black text-gray-900">💰 WEALTHSIMPLE 💰</h3>
+                    <p className="text-lg font-bold text-green-600">🇨🇦 Canada&apos;s #1 Investing App</p>
                   </div>
                 </div>
                 <span className="bg-blue-100 text-blue-800 px-2 py-1 text-xs font-medium rounded-full">
