@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" id="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RefCodes Canada - Canadian Referral Codes & Sign-up Bonuses</title>
+    <meta name="description" content="Save money with the best Canadian referral codes and sign-up bonuses. Get free cash when you sign up for banking, telecom, and investing services.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        [x-cloak] { display: none !important; }
+        .lang-en { display: block; }
+        .lang-fr { display: none; }
+        .lang-french .lang-en { display: none; }
+        .lang-french .lang-fr { display: block; }
+    </style>
+</head>
+<body class="bg-white text-gray-900" x-data="website()" :class="{ 'lang-french': currentLang === 'fr' }">
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img src="https://flagpedia.net/data/flags/emoji/openmoji/256x256/ca.png" alt="Canada" class="w-8 h-6 rounded">
+                <div class="w-8 h-8 bg-gray-800 rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold text-sm">CR</span>
+                </div>
+                <div>
+                    <div class="text-lg font-bold text-gray-900">
+                        <span class="lang-en">Ref Codes</span>
+                        <span class="lang-fr">Codes Réf</span>
+                    </div>
+                    <div class="text-xs text-gray-500">Canada</div>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="#home" class="text-sm font-medium text-gray-600 hover:text-gray-900">
+                        <span class="lang-en">Home</span>
+                        <span class="lang-fr">Accueil</span>
+                    </a>
+                    <a href="#banking" class="text-sm font-medium text-gray-600 hover:text-gray-900">
+                        <span class="lang-en">Banking</span>
+                        <span class="lang-fr">Banques</span>
+                    </a>
+                </nav>
+                <div class="flex border border-gray-300 rounded-md overflow-hidden">
+                    <button @click="switchLang('en')" class="px-2 py-1 text-sm font-medium transition-colors" :class="currentLang === 'en' ? 'bg-gray-800 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'">EN</button>
+                    <button @click="switchLang('fr')" class="px-2 py-1 text-sm font-medium transition-colors" :class="currentLang === 'fr' ? 'bg-gray-800 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'">FR</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="bg-gradient-to-b from-gray-50 to-white py-16">
+            <div class="max-w-6xl mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    <span class="lang-en">Save Money with Canadian Referral Codes</span>
+                    <span class="lang-fr">Économisez avec les codes de parrainage canadiens</span>
+                </h1>
+                <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                    <span class="lang-en">Get free cash bonuses when you sign up for the best Canadian services using my referral codes.</span>
+                    <span class="lang-fr">Obtenez des bonus en argent gratuits en vous inscrivant aux meilleurs services canadiens avec mes codes de parrainage.</span>
+                </p>
+                <button @click="scrollTo('#banking')" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    <span class="lang-en">Browse All Deals</span>
+                    <span class="lang-fr">Parcourir toutes les offres</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Wealthsimple Section -->
+        <section id="banking" class="py-16">
+            <div class="max-w-4xl mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">
+                    <span class="lang-en">Featured Offer</span>
+                    <span class="lang-fr">Offre en vedette</span>
+                </h2>
+
+                <div class="bg-white border border-gray-200 rounded-lg shadow-sm p-8">
+                    <div class="flex items-center gap-4 mb-6">
+                        <img src="https://logo.clearbit.com/wealthsimple.com" alt="Wealthsimple" class="w-16 h-16 rounded-lg" onerror="this.style.display='none'" />
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900">Wealthsimple</h3>
+                            <p class="text-gray-600">Canada's #1 Investing App</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-6 mb-6">
+                        <p class="text-sm text-green-700 mb-1">
+                            <span class="lang-en">Your Bonus</span>
+                            <span class="lang-fr">Votre bonus</span>
+                        </p>
+                        <p class="text-4xl font-bold text-green-600 mb-2">
+                            <span class="lang-en">Up to $3,000!</span>
+                            <span class="lang-fr">Jusqu'à 3 000$!</span>
+                        </p>
+                        <p class="text-lg font-semibold text-gray-700">
+                            <span class="lang-en">Get $25 FREE with just $1 deposit</span>
+                            <span class="lang-fr">Obtenez 25$ GRATUIT avec 1$ de dépôt</span>
+                        </p>
+                    </div>
+
+                    <p class="text-gray-700 mb-6 text-lg">
+                        <span class="lang-en">Canada's most popular investing app. Get $25 free when you sign up and fund your account with just $1.</span>
+                        <span class="lang-fr">L'application d'investissement la plus populaire au Canada. Obtenez 25$ gratuits en vous inscrivant et en déposant seulement 1$.</span>
+                    </p>
+
+                    <div class="bg-gray-50 p-6 rounded-lg mb-6">
+                        <p class="text-sm text-gray-500 mb-2">
+                            <span class="lang-en">Referral Code</span>
+                            <span class="lang-fr">Code de parrainage</span>
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <span class="text-2xl font-mono font-bold text-gray-900 bg-white px-4 py-2 rounded border">EYP3LM</span>
+                            <button @click="copyCode('EYP3LM')" class="text-blue-600 hover:text-blue-700 font-medium" x-text="copied === 'EYP3LM' ? 'Copied!' : 'Copy'"></button>
+                        </div>
+                    </div>
+
+                    <a href="https://www.wealthsimple.com/invite/EYP3LM" target="_blank" rel="noopener noreferrer" class="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-4 px-6 rounded-lg text-lg font-bold transition-colors">
+                        <span class="lang-en">🚀 Sign Up Now & Get $25 Free! 🚀</span>
+                        <span class="lang-fr">🚀 Inscrivez-vous & obtenez 25$ gratuit! 🚀</span>
+                    </a>
+
+                    <!-- How it Works -->
+                    <div class="mt-12">
+                        <h4 class="text-xl font-bold text-gray-900 mb-6 text-center">
+                            <span class="lang-en">How It Works</span>
+                            <span class="lang-fr">Comment ça fonctionne</span>
+                        </h4>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">1</div>
+                                <p class="text-gray-700">
+                                    <span class="lang-en">Click the signup link or use code EYP3LM</span>
+                                    <span class="lang-fr">Cliquez sur le lien ou utilisez le code EYP3LM</span>
+                                </p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">2</div>
+                                <p class="text-gray-700">
+                                    <span class="lang-en">Open any account and deposit $1 within 30 days</span>
+                                    <span class="lang-fr">Ouvrez un compte et déposez 1$ dans les 30 jours</span>
+                                </p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">3</div>
+                                <p class="text-gray-700">
+                                    <span class="lang-en">Get your $25 bonus within 24 hours!</span>
+                                    <span class="lang-fr">Recevez votre bonus de 25$ en 24 heures!</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-50 border-t border-gray-200 py-12">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p class="text-sm text-gray-500 mb-4">
+                <strong>
+                    <span class="lang-en">Affiliate Disclosure:</span>
+                    <span class="lang-fr">Divulgation d'affiliation:</span>
+                </strong>
+                <span class="lang-en">This site contains referral links. When you sign up using my links, I may earn a commission at no extra cost to you.</span>
+                <span class="lang-fr">Ce site contient des liens de parrainage. Lorsque vous vous inscrivez en utilisant mes liens, je peux recevoir une commission sans frais supplémentaires.</span>
+            </p>
+            <p class="text-sm text-gray-400">
+                © 2025 
+                <span class="lang-en">RefCodes Canada. All rights reserved.</span>
+                <span class="lang-fr">CodesRéf Canada. Tous droits réservés.</span>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function website() {
+            return {
+                currentLang: 'en',
+                copied: null,
+
+                switchLang(lang) {
+                    this.currentLang = lang;
+                    if (lang === 'fr') {
+                        document.title = 'CodesRéf Canada - Codes de parrainage canadiens et bonus d\'inscription';
+                        document.documentElement.lang = 'fr';
+                    } else {
+                        document.title = 'RefCodes Canada - Canadian Referral Codes & Sign-up Bonuses';
+                        document.documentElement.lang = 'en';
+                    }
+                },
+
+                copyCode(code) {
+                    navigator.clipboard.writeText(code).then(() => {
+                        this.copied = code;
+                        setTimeout(() => { this.copied = null; }, 2000);
+                        alert(`Code ${code} copied to clipboard!`);
+                    }).catch(() => {
+                        const textArea = document.createElement('textarea');
+                        textArea.value = code;
+                        document.body.appendChild(textArea);
+                        textArea.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(textArea);
+                        alert(`Code ${code} copied!`);
+                    });
+                },
+
+                scrollTo(element) {
+                    document.querySelector(element).scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        }
+    </script>
+</body>
+</html>
