@@ -26,11 +26,17 @@ export default async function BankingPage({
         <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
           <div className="flex justify-between items-start mb-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center">
-                <span className="font-bold text-gray-700 text-sm">WS</span>
+              <div className="w-16 h-16 bg-gradient-to-br from-emerald-400 via-green-500 to-green-600 rounded-xl flex items-center justify-center border-2 border-emerald-200 shadow-xl">
+                <div className="text-center">
+                  <div className="font-black text-white text-lg leading-tight">W</div>
+                  <div className="font-bold text-white text-xs leading-tight">SIMPLE</div>
+                </div>
               </div>
-              <div className="h-10 px-4 bg-gray-900 rounded-lg flex items-center">
-                <span className="text-white font-semibold text-sm">Wealthsimple</span>
+              <div>
+                <h3 className="text-xl font-black text-gray-900 mb-1">WEALTHSIMPLE</h3>
+                <p className="text-sm font-bold text-green-600 flex items-center gap-1">
+                  🇨🇦 <span>Canada&apos;s #1 Platform</span>
+                </p>
               </div>
             </div>
             <span className="bg-blue-100 text-blue-800 px-2 py-1 text-xs font-medium rounded-full">
@@ -56,11 +62,21 @@ export default async function BankingPage({
             }
           </p>
           
-          <Link href={`/${locale}/referral/wealthsimple`}>
-            <button className="w-full border border-gray-300 bg-white text-gray-700 py-2 rounded-lg hover:bg-gray-50 transition-colors">
-              {isEnglish ? 'Learn More' : 'En savoir plus'}
-            </button>
-          </Link>
+          <div className="flex gap-3">
+            <Link href={`/${locale}/referral/wealthsimple`} className="flex-1">
+              <button className="w-full border border-gray-300 bg-white text-gray-700 py-2 rounded-lg hover:bg-gray-50 transition-colors font-semibold">
+                {isEnglish ? 'Learn More' : 'En savoir plus'}
+              </button>
+            </Link>
+            <a 
+              href="https://www.wealthsimple.com/invite/EYP3LM"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 text-center bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg font-semibold transition-colors"
+            >
+              {isEnglish ? 'Sign Up' : 'S\'inscrire'} →
+            </a>
+          </div>
         </div>
       </div>
     </div>

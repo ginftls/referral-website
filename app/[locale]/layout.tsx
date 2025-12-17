@@ -29,18 +29,19 @@ export default async function LocaleLayout({
           <div className="min-h-screen flex flex-col">
             <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
               <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-                <div className="flex items-center gap-3">
-                  <div className="bg-red-50 border-2 border-red-200 rounded-lg p-2">
-                    <span className="text-4xl">🇨🇦</span>
+                <div className="flex items-center gap-4">
+                  <div className="bg-red-100 border-4 border-red-500 rounded-xl p-3 shadow-lg">
+                    <div className="text-5xl">🇨🇦</div>
+                    <div className="text-xs font-bold text-red-600 text-center">CANADA</div>
                   </div>
-                  <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold">CR</span>
+                  <div className="w-12 h-12 bg-red-600 rounded-xl flex items-center justify-center shadow-lg">
+                    <span className="text-white font-black text-lg">RC</span>
                   </div>
                   <div>
-                    <div className="text-xl font-black text-red-600">
+                    <div className="text-2xl font-black text-red-600">
                       {locale === 'fr' ? 'Codes Réf' : 'Ref Codes'}
                     </div>
-                    <div className="text-sm font-bold text-gray-700">🇨🇦 CANADA</div>
+                    <div className="text-lg font-bold text-gray-800">🍁 CANADIAN REFERRALS</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
