@@ -64,7 +64,7 @@ export default function HomePage({
               </div>
               
               <p className="text-gray-600 text-sm mb-4">
-                Canada's most popular investing app. Get $25 free when you sign up and fund your account with just $1.
+                Canada&apos;s most popular investing app. Get $25 free when you sign up and fund your account with just $1.
               </p>
               
               <div className="bg-gray-50 p-3 rounded-lg mb-4">
@@ -91,7 +91,7 @@ export default function HomePage({
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Fizz</h3>
-                    <p className="text-sm text-gray-500">Quebec's Digital Leader</p>
+                    <p className="text-sm text-gray-500">Quebec&apos;s Digital Leader</p>
                   </div>
                 </div>
                 <span className="bg-amber-100 text-amber-800 px-2 py-1 text-xs font-medium rounded-full">
@@ -109,7 +109,7 @@ export default function HomePage({
               </div>
               
               <p className="text-gray-600 text-sm mb-4">
-                Quebec's favorite digital mobile and internet provider. Get $25-$50 credit when you sign up.
+                Quebec&apos;s favorite digital mobile and internet provider. Get $25-$50 credit when you sign up.
               </p>
               
               <div className="bg-gray-50 p-3 rounded-lg mb-4">
