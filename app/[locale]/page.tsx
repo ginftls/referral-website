@@ -9,9 +9,17 @@ export default function HomePage({
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-gray-50 to-white py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            {locale === 'fr' ? 'Économisez avec les codes de parrainage canadiens' : 'Save Money with Canadian Referral Codes'}
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {locale === 'fr' ? 'Code de Parrainage Wealthsimple EYP3LM' : 'Wealthsimple Referral Code EYP3LM'}
           </h1>
+          <div className="bg-yellow-100 border-2 border-yellow-400 rounded-lg p-4 mb-6 max-w-2xl mx-auto">
+            <p className="text-2xl font-bold text-gray-900 mb-2">
+              {locale === 'fr' ? '🎯 Code: EYP3LM - Bonus jusqu\'à 3 000$!' : '🎯 Code: EYP3LM - Get up to $3,000 Bonus!'}
+            </p>
+            <p className="text-lg text-gray-700">
+              {locale === 'fr' ? '25$ gratuit avec seulement 1$ de dépôt' : '$25 FREE with just $1 deposit'}
+            </p>
+          </div>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             {locale === 'fr' ? 'Obtenez des bonus en argent gratuits en vous inscrivant aux meilleurs services canadiens avec mes codes de parrainage.' : 'Get free cash bonuses when you sign up for the best Canadian services using my referral codes.'}
           </p>

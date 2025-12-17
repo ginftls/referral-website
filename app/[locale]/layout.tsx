@@ -13,6 +13,17 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        <meta name="keywords" content="wealthsimple referral code, wealthsimple bonus, canadian referral codes, EYP3LM, free money canada, investing bonus" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Wealthsimple Referral Code EYP3LM - Get $3000 Bonus | RefCodes Canada" />
+        <meta property="og:description" content="Use Wealthsimple referral code EYP3LM to get up to $3000 bonus! Get $25 free with just $1 deposit. Best Canadian referral codes." />
+        <meta property="og:url" content="https://referral-website-eta.vercel.app" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Wealthsimple Referral Code EYP3LM - $3000 Bonus" />
+        <meta name="twitter:description" content="Use code EYP3LM for Wealthsimple $25-$3000 bonus. Canadian referral codes that actually work!" />
+      </head>
       <body className="bg-white text-gray-900">
         <NextIntlClientProvider messages={messages}>
           <div className="min-h-screen flex flex-col">
